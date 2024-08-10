@@ -7,4 +7,4 @@ for i in range(n):
     sum += num 
     cnt += 1 
 avg = sum / cnt
-print (sum, avg)
+print (f"{sum} {avg:.1f}")
