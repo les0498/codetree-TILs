@@ -1,8 +1,8 @@
 n = int(input())                            
-cnt = 1
-for i in range(5000):
+cnt = 0
+for i in range(1,101):
     cnt += 1
-    n //= cnt 
+    n //= i
     if n <= 1 :
         break
 print(cnt)
