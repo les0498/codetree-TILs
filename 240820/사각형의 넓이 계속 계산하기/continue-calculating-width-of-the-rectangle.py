@@ -1,10 +1,10 @@
-w, h, a = map(input().split())
-w = int(w)
-h = int(h) 
-gop = 0
 while True:
-    if str(a) == "c":
-        continue 
-    else :
-       gop = w * h 
-print(gop)
+    w, h, a = input().split()
+    w = int(w)
+    h = int(h)
+
+    area = w * h
+    print(area)
+
+    if a == 'C':
+        break
