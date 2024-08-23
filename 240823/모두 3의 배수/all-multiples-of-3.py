@@ -1,6 +1,5 @@
 satisfied = False 
-n = int(input())
-for i in range (n) :
+for i in range (5) :
     num = int(input())
     if num % 3 == 0:
         satisfied = True
