@@ -1,6 +1,7 @@
-arr = [58, 12, 5, 31, 112, 341, 56, 3, 512, 52]
+input_data = input()
+numbers = list(map(int, input_data.split()))
 max_val = 0
-for elem in arr:
+for elem in numbers:
     if elem > max_val:
         max_val = elem
 print(max_val)
